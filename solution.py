@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import norm
 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 285728981 # Ваш chat ID, не меняйте название переменной
 
 def solution(p: float, x: np.array) -> tuple:
     # Измените код этой функции
@@ -15,3 +15,4 @@ def solution(p: float, x: np.array) -> tuple:
     scale = np.sqrt(np.var(x)) / np.sqrt(len(x))
     return loc - scale * norm.ppf(1 - alpha / 2), \
            loc - scale * norm.ppf(alpha / 2)
+Я ничего не поняла.
